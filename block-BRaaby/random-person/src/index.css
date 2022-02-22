@@ -45,12 +45,32 @@ body {
   border: 0;
   outline: none;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .center {
   padding-left: 4rem;
 }
 
+.text-align{
+  text-align: center;
+  margin-top:2rem;
+}
+.app_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app_icons .fas {
+  margin: 0 30px;
+  transition: all 0.2s ease;
+}
+
+.app_icons .fas:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
 /* Loader */
 
 .ripple-loader {
